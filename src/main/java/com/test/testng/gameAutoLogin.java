@@ -21,9 +21,10 @@ public class gameAutoLogin {
 
     @DataProvider
 //    @Parameters({"driverPath", "url"})
-    public Object[][] dataProvider() {
+    public Object[][] dataProvider() throws InterruptedException {
         return new Object[][] {
-                new Object[] {"wiidai01@163.com", "wii1350"}
+                new Object[] {"wiidai01@163.com", "wii1350"},
+                new Object[] {"wiidai02@163.com", "wii1350"}
         };
     }
 }
